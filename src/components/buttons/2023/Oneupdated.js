@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import pdf from "../../../pdf/2022/1-Seat-Matrix.pdf"
+import pdf from "../../../pdf/2023/1-Seat-Matrix.pdf"
 
 
 const One = () => {
