@@ -61,25 +61,26 @@ const page = () => {
 
                         <div className='form md:m-4'>
                             <div className='text-2xl font-serif'>Send us a message</div>
-                            <div className='flex-col items-center justify-center'>
-                                <input type="text" placeholder='First name' className='p-4 mt-2 bg-white text-gray-400 w-full rounded-sm' />
-                                <input type="email" placeholder='Email address' className='p-4 mt-2 bg-white text-gray-400 w-full rounded-sm' />
-                                <input type="text" placeholder='Subject' className='p-4 mt-2 bg-white text-gray-400 w-full rounded-sm' />
-                                <input type="text" placeholder='Your message' className='p-4 mt-2 bg-white text-gray-400 w-full rounded-sm' />
+                            <form className='flex-col items-center justify-center' action="https://formspree.io/f/xdoqozer" method='POST'>
+                                <input type="text" placeholder='First name' className='p-4 mt-2 bg-white text-gray-800 w-full rounded-sm' name='Name' required />
+                                <input type="email" placeholder='Email address' className='p-4 mt-2 bg-white text-gray-800 w-full rounded-sm' name="Email" required />
+                                <input type="text" placeholder='Subject' className='p-4 mt-2 bg-white text-gray-800 w-full rounded-sm' name='Subject' required />
+                                <input type="text" placeholder='Your message' className='p-4 mt-2 bg-white text-gray-800 w-full rounded-sm' name='Message' required />
                                 <button className='p-4 mt-4 bg-white text-blue-700 rounded-sm font-serif font-semibold'>Submit</button>
-                            </div>
+                            </form>
                         </div>
 
                     </div>
-
-
-
                 </div>
-
-
             </div>
         </div>
+
     )
 }
 
+
+
+
 export default page
+
+

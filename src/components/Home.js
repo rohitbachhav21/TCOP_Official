@@ -15,7 +15,7 @@ const page = () => {
 
 
                 <div className='relative'>
-                    <img src={girl} height={1000} width={1000} alt='girl' className='w-full h-auto' ></img>
+                    <img src={girl} height={1000} width={1000} alt='girl' className='w-full h-auto ' ></img>
                     <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white'>
                         <h1 className='md:text-6xl md:font-bold text-2xl font-semibold m-2 font-serif'>
                             Tanmayi College of Physiotherapy
@@ -65,7 +65,7 @@ const page = () => {
                 <div className='flex items-center justify-center'>
                     <div className=' p-2 border border-x-slate-50 shadow-2xl rounded-sm'>
                         <div>
-                            <img src={classroom} alt='classroom' width={1000} height={1000}></img>
+                            <img src={classroom} alt='classroom' width={1000} height={1000} className='animate-pulse'></img>
                         </div>
                         <div className='flex items-center justify-center p-2 tex-6xl font-semibold font-serif'>B.P.T.H (Bachelor of Physiotherapy)</div>
                         <div className='p-4 flex items-center justify-center'>
