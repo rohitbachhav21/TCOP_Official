@@ -92,7 +92,7 @@ const page = () => {
                         <div className='flex p-3'>
                             <div ><AdjustOutlinedIcon /></div>
                             <div className='ml-2 text-justify'>
-                                <h1 className='font-serif text-2xl '>World Helath Day</h1>
+                                <h1 className='font-serif text-2xl '>World Health Day</h1>
                                 <p>Celebrating World Health Day, Tanmayi College of Physiotherapy stands tall, Educating, advocating, and ensuring health for one and all. With knowledge and compassion, we heal, restore, and prevent the fall.</p>
                             </div>
                         </div>
