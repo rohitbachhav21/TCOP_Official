@@ -17,25 +17,33 @@ const Navbar = () => {
 
   return (
     <div>
+    <div className='hidden md:block'>
+    <div className='flex justify-center'><img src={Logo} alt='logo' width={100} height={100}></img></div>
+    <div className=' text-4xl flex justify-center mb-2 font-serif'>Tanmayi College of Physiotherapy Satana</div>
+    <marquee className="text-red-600">Padma Nagar, Bhakshi Road, Satana, Tal. Bagalan, Dist. Nashik, 423301 | Contact on 02555223938 / 9921264880 / 7057467770 / 9049693221 | Mail.tanmayiphysiotherapy29@gmail.com</marquee>
+    </div>
       <div>
-        <div className="nav w-full flex items-center bg-gray-50 shadow-lg">
+        <div className="nav w-full flex items-center bg-gray-100 shadow-lg ">
 
 
-          <div className="nav w-full flex items-center justify-between bg-gray-50 font-serif">
-            <div className="p-2 flex items-center justify-center ">
-              <img
-                src={Logo}
-                alt="logo"
-                width={80}
-                height={80}
-                className="rounded-lg"
-              //   onClick={()=>router.push("/")}
-              />
-              <h1 className='m-2 md:text-1xl md:font-semibold'>Tanmayi College of Physiotherapy, Satana</h1>
-            </div>
+          <div className="nav w-full flex items-center justify-between bg-gray-100 font-serif">
+
+          <div className="block md:hidden p-2 flex items-center justify-center ">
+          <img
+            src={Logo}
+            alt="logo"
+            width={80}
+            height={80}
+            className="rounded-lg"
+          //   onClick={()=>router.push("/")}
+          />
+          <h1 className='m-2 md:text-1xl md:font-semibold'>Tanmayi College of Physiotherapy, Satana</h1>
+        </div>
+           
+           
 
             <div className="hidden md:block">
-              <ul className=" justify-center items-center grid grid-cols-5">
+              <ul className=" justify-center items-center flex">
                 <li className="m-3">
                   <a href="/home">Home</a>
                 </li>
@@ -117,3 +125,18 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+//logo and name
+
+// <div className="p-2 flex items-center justify-center ">
+// <img
+//   src={Logo}
+//   alt="logo"
+//   width={80}
+//   height={80}
+//   className="rounded-lg"
+// //   onClick={()=>router.push("/")}
+// />
+// <h1 className='m-2 md:text-1xl md:font-semibold'>Tanmayi College of Physiotherapy, Satana</h1>
+// </div>
